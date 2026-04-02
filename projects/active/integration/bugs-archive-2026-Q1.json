@@ -1,0 +1,256 @@
+{
+  "archive_info": {
+    "period": "2026-Q1",
+    "business": "集成平台",
+    "total_count": 22,
+    "completed_count": 21,
+    "hold_count": 1,
+    "archive_date": "2026-04-03"
+  },
+  "bugs": [
+    {
+      "bug_id": "BUG-1343301",
+      "module": "主数据",
+      "title": "【主数据】过滤器字段存在错误联动效果",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-26",
+      "solution_date": "2026-03-26",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1341697",
+      "module": "主数据",
+      "title": "【主数据】切换不同数据源后保存数据，点击编辑切换档案后页面展示异常",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-25",
+      "solution_date": "2026-03-26",
+      "type": "UI界面"
+    },
+    {
+      "bug_id": "BUG-1341491",
+      "module": "主数据",
+      "title": "【主数据】修改部分主数据字段，会影响相邻的字段（详见录屏）",
+      "priority": "P1",
+      "status": "已完成",
+      "create_time": "2026-03-25",
+      "solution_date": "2026-03-26",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1341115",
+      "module": "主数据",
+      "title": "【主数据】人员档案类型滴滴企业级的字段枚举请求参数sourceType均为default",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-25",
+      "solution_date": "2026-03-26",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1339517",
+      "module": "主数据",
+      "title": "[主数据]定时任务同步周期选择每几天，页面仍展示为每天",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-24",
+      "solution_date": "2026-03-26",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1337737",
+      "module": "我的集成",
+      "title": "【我的集成】分页后筛选数据，current传参不对，导致筛选结果不符合预期",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-24",
+      "solution_date": "2026-03-24",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1337473",
+      "module": "主数据",
+      "title": "【主数据】主数据配置选择触发机制为定时任务时具体时间字段缺少必填性校验",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-24",
+      "solution_date": "2026-03-24",
+      "type": "需求方案问题"
+    },
+    {
+      "bug_id": "BUG-1337459",
+      "module": "主数据",
+      "title": "【主数据】主数据页面小屏时部分组件展示会存在异常",
+      "priority": "P1",
+      "status": "已完成",
+      "create_time": "2026-03-24",
+      "solution_date": "2026-03-24",
+      "solution_result": "将来修复",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1336717",
+      "module": "主数据",
+      "title": "【主数据】企业级字段映射的key没有固定值和自定义字段",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-23",
+      "solution_date": "2026-03-24",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1336691",
+      "module": "主数据",
+      "title": "【主数据】字段映射ES的输入框过长后，导致飞书选择固定值和自定义时，输入框异常",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-23",
+      "solution_date": "2026-03-24",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1336621",
+      "module": "主数据",
+      "title": "【主数据】集成配置字段映射模块无需填充字段，下拉框的枚举展示需优化（详见截图）",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-23",
+      "solution_date": "2026-03-24",
+      "type": "优化建议"
+    },
+    {
+      "bug_id": "BUG-1336031",
+      "module": "主数据",
+      "title": "[主数据]主数据的配置页面应该需要什么档案tab页添加什么tab页",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-23",
+      "solution_date": "2026-03-24",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1335929",
+      "module": "主数据",
+      "title": "【主数据】邮箱字段非必填，无需必填性校验",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-23",
+      "solution_date": "2026-03-24",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1328365",
+      "module": "集成管理",
+      "title": "【集成管理】集成配置详情或编辑页面直接点击【我的集成】返回存在白屏",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-03-18",
+      "solution_date": "2026-03-30",
+      "type": "用户体验问题"
+    },
+    {
+      "bug_id": "BUG-1314581",
+      "module": "客户管理",
+      "title": "【客户管理】客户卡片名称超长部分屏幕显示不对",
+      "priority": "P3",
+      "status": "已完成",
+      "create_time": "2026-03-09",
+      "solution_date": "2026-04-02",
+      "type": "兼容性问题"
+    },
+    {
+      "bug_id": "BUG-1313255",
+      "module": "数据权限",
+      "title": "【数据权限】用户未关联客户信息时，点击/integration/dashboard接口登录跳转页面异常报404",
+      "priority": "P1",
+      "status": "已完成",
+      "create_time": "2026-03-09",
+      "solution_date": "2026-03-09",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1271499",
+      "module": "客户列表",
+      "title": "客户列表页分页查询数据重复，且加载更多存在可无限加载数据",
+      "priority": "P1",
+      "status": "已完成",
+      "create_time": "2026-01-22",
+      "solution_date": "2026-01-23",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1271285",
+      "module": "客户空间",
+      "title": "进入客户空间，切换客户下拉按钮，部分区域点击无反应",
+      "priority": "P2",
+      "status": "Hold",
+      "create_time": "2026-01-22",
+      "type": "代码错误"
+    },
+    {
+      "bug_id": "BUG-1265065",
+      "module": "客户页面",
+      "title": "客户页面加载渲染，无loading动画建议优化（见录屏）",
+      "priority": "P3",
+      "status": "已完成",
+      "create_time": "2026-01-19",
+      "solution_date": "2026-01-22",
+      "type": "UI界面"
+    },
+    {
+      "bug_id": "BUG-1265023",
+      "module": "搜索",
+      "title": "搜索结果为空，页面展示不符合预期",
+      "priority": "P3",
+      "status": "已完成",
+      "create_time": "2026-01-19",
+      "solution_date": "2026-01-22",
+      "type": "UI界面"
+    },
+    {
+      "bug_id": "BUG-1264005",
+      "module": "主页",
+      "title": "用户未加入任何客户，进入主页页面展示不正确，缺少【我的】和【全部】tab页",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-01-16",
+      "solution_date": "2026-01-19",
+      "type": "UI界面"
+    },
+    {
+      "bug_id": "BUG-1263881",
+      "module": "新建客户",
+      "title": "新建客户未报错，取消按钮建议清空输入框",
+      "priority": "P2",
+      "status": "已完成",
+      "create_time": "2026-01-16",
+      "solution_date": "2026-01-19",
+      "type": "用户体验问题"
+    }
+  ],
+  "summary": {
+    "by_status": {
+      "已完成": 21,
+      "待测试": 0,
+      "Hold": 1
+    },
+    "by_priority": {
+      "P1": 3,
+      "P2": 16,
+      "P3": 3
+    },
+    "by_module": {
+      "主数据": 12,
+      "集成管理": 1,
+      "客户管理": 1,
+      "数据权限": 1,
+      "客户列表": 1,
+      "客户空间": 1,
+      "客户页面": 1,
+      "搜索": 1,
+      "主页": 1,
+      "新建客户": 1
+    }
+  }
+}
